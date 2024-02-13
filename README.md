@@ -5,7 +5,8 @@ Files related to the scaling of the full legislative tests to be stored here
 ### Dependencies
 **GPU REQUIRED**
 Install CUDA from https://developer.nvidia.com/cuda-downloads
-Kindly install the following python modules using pip or conda:
+
+Install the following python modules using pip or conda:
 
 - Python >= 3.6 
 - Pandas
