@@ -447,7 +447,7 @@ for f in filenames:
 """# Final"""
 
 print('Running for Final Text\n')
-trilog_base_path = '/ceph/sobaidul/data/aligned_proposals'
+trilog_base_path = proposal_alignment_path
 alignment_path = '/ceph/sobaidul/data/aligned_finals'
 filenames = glob.glob(f'{trilog_base_path}/*.csv')
 df_final_full = pd.read_csv('/ceph/sobaidul/data/final_act_full.csv', sep=',')
