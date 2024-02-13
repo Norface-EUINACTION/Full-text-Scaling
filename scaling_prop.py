@@ -32,7 +32,7 @@ import statistics
 from collections import Counter
 
 nltk.download('punkt')
-'''
+
 #from google.colab import drive
 #drive.mount('/content/drive', force_remount=True)
 token_list = ["$deleted$", "$Paragraph 5 is deleted$", 
@@ -202,6 +202,7 @@ for i in file_list:
 logf.close()
 
 print('------------------FINISHED----------------')
+
 '''
 ####################################################
 #combine all files
