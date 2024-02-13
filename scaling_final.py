@@ -32,7 +32,7 @@ import statistics
 from collections import Counter
 
 nltk.download('punkt')
-'''
+
 #from google.colab import drive
 #drive.mount('/content/drive', force_remount=True)
 token_list = ["$deleted$", "$Paragraph 5 is deleted$", 
@@ -200,9 +200,10 @@ for i in file_list:
       logf.write("Cannot open and run with encoding parameter {0}: {1}\n".format(str(i), str(e)))
 
 logf.close()
-'''
+
 #print('------------------FINISHED----------------')
 
+'''
 ####################################################
 #combine all files
 
@@ -218,4 +219,4 @@ for i in file_name:
 
 df_all = pd.concat(df_list, ignore_index=True)
 df_all.to_csv(f'{write_base_path}/final_combined.csv', sep=',', index=False)
-#####################################################
+#####################################################'''
